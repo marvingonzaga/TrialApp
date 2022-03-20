@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,11 +74,21 @@
             this.textBox2.TabIndex = 3;
             this.textBox2.Text = "HELLO WORLD";
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(33, 238);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(306, 42);
+            this.textBox3.TabIndex = 4;
+            this.textBox3.Text = "FAY JASMIN PANAGUITON";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 396);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -96,5 +107,6 @@
         private Label label1;
         private PictureBox pictureBox1;
         private TextBox textBox2;
+        private TextBox textBox3;
     }
 }
