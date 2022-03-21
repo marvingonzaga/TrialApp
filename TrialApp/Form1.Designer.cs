@@ -34,6 +34,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,11 +84,21 @@
             this.textBox3.TabIndex = 4;
             this.textBox3.Text = "FAY JASMIN PANAGUITON";
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(34, 296);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(305, 43);
+            this.textBox4.TabIndex = 5;
+            this.textBox4.Text = "CHERRY MAE FEDELICIO";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 396);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
@@ -108,5 +119,6 @@
         private PictureBox pictureBox1;
         private TextBox textBox2;
         private TextBox textBox3;
+        private TextBox textBox4;
     }
 }
